@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#056041"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CookieGameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Game"
+        android:textColor="#8DF491"
+        android:textSize="60dp" />
+
+    <ImageButton
+        android:id="@+id/ibtn_cookie"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#056041"
+        android:src="@drawable/cookie" />
+
+    <TextView
+        android:id="@+id/tv_taps"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Taps: 1"
+        android:textAlignment="center"
+        android:textColor="#8DF491"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_points"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Point: 0"
+        android:textAlignment="center"
+        android:textColor="#8DF491"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#8DF491"
+
+        android:text="buy a tap at 5"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_back_to_main"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#8DF491"
+        android:text="back to main"
+
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

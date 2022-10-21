@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#056041"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomeCookieActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textColor="#8DF491"
+        android:textSize="60dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cookie"
+
+        />
+
+    <Button
+        android:id="@+id/btn_play_demo"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#8DF491"
+        android:text="play Demo"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_play_web"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#8DF491"
+        android:text="play WEB"
+        android:textColor="@color/black"
+
+        />
+
+    <Button
+        android:id="@+id/btn_rules"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#8DF491"
+        android:text="rules"
+        android:textColor="@color/black"
+
+        />
+
+    <Button
+        android:id="@+id/btn_go_main"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#8DF491"
+        android:text="to home page"
+        android:textColor="@color/black"
+
+        />
+</LinearLayout>
+
+
